@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple calendar</title>
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <!-- font-family: "Inconsolata", monospace; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">
+        <img src="./images/calendar.png" class="icon" />
+        <h1>Simple Calendar</h1>
+      </div>
+
+      <div class="changeMonth">
+        <img src="./images/previous.png" id="previous" class="icon" />
+        <h2 id="yearAndMonth">2021/4</h2>
+        <img src="./images/next.png" id="next" class="icon" />
+      </div>
+      <table>
+        <thead id="weekTitle">
+          <tr>
+            <th>Monday</th>
+          </tr>
+        </thead>
+        <tbody id="days"></tbody>
+      </table>
+    </div>
+    <script src="../src/js/main.js"></script>
+  </body>
+</html>

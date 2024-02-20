@@ -1,5 +1,7 @@
+$primary: #c6c0ba;
+
 body {
-  background: #c6c0ba;
+  background: $primary;
   padding: 0;
   margin: 0;
   font-weight: 400;
@@ -10,26 +12,24 @@ body {
   padding: 100px;
   position: relative;
 }
-
 .title {
   display: flex;
   justify-content: start;
   align-items: center;
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
 }
-.title .icon {
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-}
-
 .changeMonth {
   display: flex;
   justify-content: start;
   align-items: center;
-}
-.changeMonth .icon {
-  width: 50px;
-  height: 50px;
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 table {
@@ -38,15 +38,18 @@ table {
   border-radius: 10px;
   text-align: center;
   padding: 15px;
+  thead {
+    font-size: 20px;
+    th {
+      padding: 15px;
+      font-size: 20px;
+    }
+  }
+
+  tbody {
+    td {
+      padding: 15px;
+      font-size: 20px;
+    }
+  }
 }
-table thead {
-  font-size: 20px;
-}
-table thead th {
-  padding: 15px;
-  font-size: 20px;
-}
-table tbody td {
-  padding: 15px;
-  font-size: 20px;
-}/*# sourceMappingURL=style.css.map */
