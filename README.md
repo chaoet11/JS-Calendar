@@ -11,7 +11,7 @@ Can switch to different months.
 ## 🛠️ Technologies & Requirements
 
 - HTML
-- CS
+- CSS
 - JavaScript
 
 ## 💻 Demo Screenshot
